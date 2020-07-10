@@ -1,0 +1,48 @@
+img{
+    width: 100%;
+}
+h1{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    position:relative;
+    margin-bottom: 60px;
+}
+h1:after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #FF8159;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.logo-slider .item{
+    background-color: #fff;
+    box-shadow: 0 4px 5px #cacaca;
+    border-radius: 8px;
+    padding: 15px;
+    border: 2px solid #111;
+}
+.logo-slider .slick-slide{
+    margin:15px;
+    
+}
+.slick-dots li.slick-active button:before{
+    color:#ff5722;
+}
+.sliick-dots li button:before{
+    font-size: 12px;
+}
+.slick-next:before,
+.slick-prev:before{
+    color: #ff8159;
+    font-size: 24px;
+}
+.item:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
+}

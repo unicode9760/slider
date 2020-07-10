@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">  
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">  
+      
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+       <h1>our popular brand</h1>
+       <div class="logo-slider">
+           <div class="item"><a href="#"><img src="img/logo1.png" alt=""></a></div>
+           <div class="item"><a href="#"><img src="img/logo2.png" alt=""></a></div>
+           <div class="item"><a href="#"><img src="img/logo3.png" alt=""></a></div>
+           <div class="item"><a href="#"><img src="img/logo4.png" alt=""></a></div>
+           <div class="item"><a href="#"><img src="img/logo5.png" alt=""></a></div>
+           <div class="item"><a href="#"><img src="img/logo6.png" alt=""></a></div>
+       </div>
+   </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+    $('.logo-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        autoplayspeed: 2000,
+        infiniite: true
+    });
+    </script>
+</body>
+</html>
